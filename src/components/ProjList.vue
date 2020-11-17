@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h2>My projects</h2>
         <div class="proj-list-container">
             <ProjListItem
                 v-bind:item="item"
