@@ -1,6 +1,7 @@
 <template>
     <div class="hello">
         <h1>{{ msg }}</h1>
+        <p>Igor here. Here you can checkout my frontend projects.</p>
     </div>
 </template>
 
