@@ -76,8 +76,10 @@
 
     &-main {
         // display: block;
+        animation-delay: 3s;
         animation-duration: 1s;
         animation-name: slideInFromLeft;
+        animation-timing-function: ease-out;
         font-size: 60px;
         font-weight: 400px;
         letter-spacing: 35px;
