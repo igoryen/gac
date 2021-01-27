@@ -2,7 +2,15 @@
     <div class="aaa">
         <div>2021-01-26</div>
 
-        <header class="header">Some text...</header>
+        <header class="header">
+            <div class="logo-box">
+                <img
+                    src="../../assets/images/natours/logo-white.png"
+                    alt="image of the logo"
+                    class="logo"
+                />
+            </div>
+        </header>
     </div>
 </template>
 
@@ -37,6 +45,17 @@
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+}
+
+.logo-box {
+    left: 40px;
+    position: absolute;
+    top: 40px;
+}
+
+.logo {
+    height: 35px;
 }
 </style>
 
