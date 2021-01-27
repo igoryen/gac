@@ -53,7 +53,6 @@
         url(../../assets/images/natours/hero.jpg);
     background-size: cover;
     background-position: top;
-    
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
@@ -77,6 +76,8 @@
 
     &-main {
         // display: block;
+        animation-duration: 3s;
+        animation-name: slideInFromLeft;
         font-size: 60px;
         font-weight: 400px;
         letter-spacing: 35px;
@@ -94,6 +95,19 @@
     position: absolute;
     top: 40%;
     transform: translate(-50%, -50%);
+}
+
+@keyframes slideInFromLeft {
+    // start
+    0% {
+        opacity: 0;
+        transform: translateX(-100px); // on the abscissa
+    }
+    // finish
+    100% {
+        opacity: 1;
+        transform: translateX(0px); // on the abscissa
+    }
 }
 </style>
 
