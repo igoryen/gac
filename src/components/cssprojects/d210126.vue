@@ -10,6 +10,15 @@
                     class="logo"
                 />
             </div>
+
+            <div class="text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary-main">Outdoors</span>
+                    <span class="heading-primary-sub"
+                        >is where life happens</span
+                    >
+                </h1>
+            </div>
         </header>
     </div>
 </template>
@@ -44,8 +53,9 @@
         url(../../assets/images/natours/hero.jpg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    
     position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 .logo-box {
@@ -56,6 +66,34 @@
 
 .logo {
     height: 35px;
+}
+
+.heading-primary {
+    align-items: baseline;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+    &-main {
+        // display: block;
+        font-size: 60px;
+        font-weight: 400px;
+        letter-spacing: 35px;
+    }
+    &-sub {
+        // display: block;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 17.4px;
+    }
+}
+
+.text-box {
+    left: 50%;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
 }
 </style>
 
