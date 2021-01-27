@@ -76,7 +76,7 @@
 
     &-main {
         // display: block;
-        animation-duration: 3s;
+        animation-duration: 1s;
         animation-name: slideInFromLeft;
         font-size: 60px;
         font-weight: 400px;
@@ -102,6 +102,9 @@
     0% {
         opacity: 0;
         transform: translateX(-100px); // on the abscissa
+    }
+    80% {
+        transform: translateX(10px);
     }
     // finish
     100% {
