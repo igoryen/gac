@@ -69,6 +69,7 @@
 
 .heading-primary {
     align-items: baseline;
+    backface-visibility: hidden; // fix the jolt at animation end
     color: #fff;
     display: flex;
     flex-direction: column;
