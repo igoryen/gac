@@ -86,6 +86,7 @@
     }
     &-sub {
         // display: block;
+        animation: slideInFromRight 1s ease-out 3s;
         font-size: 20px;
         font-weight: 700;
         letter-spacing: 17.4px;
@@ -114,5 +115,23 @@
         transform: translateX(0px); // on the abscissa
     }
 }
+
+@keyframes slideInFromRight {
+    // start
+    0% {
+        opacity: 0;
+        transform: translateX(100px); // on the abscissa
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    // finish
+    100% {
+        opacity: 1;
+        transform: translateX(0px); // on the abscissa
+    }
+}
+
+
 </style>
 
