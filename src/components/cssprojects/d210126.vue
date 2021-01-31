@@ -18,7 +18,7 @@
                         >is where life happens</span
                     >
                 </h1>
-                <a href="" class="btn btn-white"> Discover our tours </a>
+                <a href="" class="btn btn-white btn-sliding"> Discover our tours </a>
             </div>
         </header>
     </div>
@@ -179,6 +179,22 @@
         &::after {
             background-color: #fff;
         }
+    }
+    &-sliding {
+        animation: slideInFromBottom .5s ease-out .75s;
+        animation-fill-mode: backwards;
+    }
+}
+@keyframes slideInFromBottom {
+    // start
+    0% {
+        opacity: 0;
+        transform: translateY(30px); // on the ordinate
+    }
+    // finish
+    100% {
+        opacity: 1;
+        transform: translateY(0px); // on the ordinate
     }
 }
 </style>
