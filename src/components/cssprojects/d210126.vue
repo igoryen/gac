@@ -17,8 +17,8 @@
                     <span class="heading-primary-sub"
                         >is where life happens</span
                     >
-                    <a href="" class="btn btn-white"> Discover our tours </a>
                 </h1>
+                <a href="" class="btn btn-white"> Discover our tours </a>
             </div>
         </header>
     </div>
@@ -76,6 +76,7 @@
     color: #fff;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3em;
     text-transform: uppercase;
 
     &-main {
@@ -137,13 +138,31 @@
 }
 
 .btn {
+    position: relative;
     &:active {
-        box-shadow: 0 5px 20px rgba(0,0,0, .2);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
         transform: translateY(-1px); // move 1 px up
     }
+    &::after {
+        border-radius: 100px;
+        content: "";
+        display: inline-block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 0.4s;
+        width: 100%;
+        z-index: -1;
+    }
     &:hover {
-        box-shadow: 0 10px 10px rgba(0,0,0, .2);
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
         transform: translateY(-3px); // move 3 px up
+
+        &::after {
+            opacity: 0;
+            transform: scaleX(1.5) scaleY(1.6);
+        }
     }
     &:link,
     &:visited {
@@ -152,11 +171,14 @@
         padding: 15px 40px;
         text-decoration: none;
         text-transform: uppercase;
-        transition: all .2s;
+        transition: all 0.2s;
     }
     &-white {
         background-color: #fff;
         color: #777;
+        &::after {
+            background-color: #fff;
+        }
     }
 }
 </style>
