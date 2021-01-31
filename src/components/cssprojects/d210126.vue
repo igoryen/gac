@@ -17,6 +17,7 @@
                     <span class="heading-primary-sub"
                         >is where life happens</span
                     >
+                    <a href="" class="btn btn-white"> Discover our tours </a>
                 </h1>
             </div>
         </header>
@@ -31,6 +32,7 @@
 // resetting
 * {
     box-sizing: border-box;
+    font-size: 1em;
     margin: 0;
     padding: 0;
 }
@@ -68,8 +70,9 @@
 }
 
 .heading-primary {
-    align-items: baseline;
+    align-items: center;
     backface-visibility: hidden; // fix the jolt at animation end
+    // background-color: red;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -133,6 +136,28 @@
     }
 }
 
-
+.btn {
+    &:active {
+        box-shadow: 0 5px 20px rgba(0,0,0, .2);
+        transform: translateY(-1px); // move 1 px up
+    }
+    &:hover {
+        box-shadow: 0 10px 10px rgba(0,0,0, .2);
+        transform: translateY(-3px); // move 3 px up
+    }
+    &:link,
+    &:visited {
+        border-radius: 100px;
+        display: inline-block;
+        padding: 15px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all .2s;
+    }
+    &-white {
+        background-color: #fff;
+        color: #777;
+    }
+}
 </style>
 
