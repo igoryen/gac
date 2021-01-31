@@ -77,7 +77,7 @@
 
     &-main {
         // display: block;
-        animation-delay: 3s;
+        // animation-delay: 3s;
         animation-duration: 1s;
         animation-name: slideInFromLeft;
         animation-timing-function: ease-out;
@@ -87,7 +87,7 @@
     }
     &-sub {
         // display: block;
-        animation: slideInFromRight 1s ease-out 3s;
+        animation: slideInFromRight 1s ease-out;
         font-size: 20px;
         font-weight: 700;
         letter-spacing: 17.4px;
