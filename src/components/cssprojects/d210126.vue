@@ -30,8 +30,10 @@
 // Dark green: #28b485
 
 // resetting
-* {
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
     font-size: 1em;
     margin: 0;
     padding: 0;

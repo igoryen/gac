@@ -37,6 +37,7 @@ html {
 }
 
 body {
+    box-sizing: border-box;
     color: #777;
     font-family: "Lato", sans-serif;
     // font-size: 16px;
