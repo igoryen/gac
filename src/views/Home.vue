@@ -23,9 +23,19 @@ export default {
 </script>
 
 <style lang="scss">
-.html {
-    font-family: "Fira Sans", sans-serif;
+
+.home {
+    color: #777;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+
+    text-align: center;
+    color: #2c3e50;
 }
+
+
 $img-size: 10em;
 .photo {
     display: flex;

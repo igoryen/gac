@@ -38,11 +38,7 @@
 }
 
 .aaa {
-    color: #777;
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.7;
+    padding-top: 5rem;
 }
 
 .header {
@@ -60,23 +56,23 @@
 }
 
 .logo-box {
-    left: 40px;
+    left: 4rem;
     position: absolute;
-    top: 40px;
+    top: 4rem;
 }
 
 .logo {
-    height: 35px;
+    height: 3.5rem;
 }
 
 .heading-primary {
-    align-items: center;
+    align-items: baseline;
     backface-visibility: hidden; // fix the jolt at animation end
     // background-color: red;
     color: #fff;
     display: flex;
     flex-direction: column;
-    margin-bottom: 3em;
+    margin-bottom: 6rem;
     text-transform: uppercase;
 
     &-main {
@@ -85,16 +81,16 @@
         animation-duration: 1s;
         animation-name: slideInFromLeft;
         animation-timing-function: ease-out;
-        font-size: 60px;
+        font-size: 6rem;
         font-weight: 400px;
-        letter-spacing: 35px;
+        letter-spacing: 3.5rem;
     }
     &-sub {
         // display: block;
         animation: slideInFromRight 1s ease-out;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: 700;
-        letter-spacing: 17.4px;
+        letter-spacing: 1.75rem;
     }
 }
 
@@ -102,6 +98,7 @@
     left: 50%;
     position: absolute;
     top: 40%;
+    text-align: center;
     transform: translate(-50%, -50%);
 }
 
@@ -109,15 +106,15 @@
     // start
     0% {
         opacity: 0;
-        transform: translateX(-100px); // on the abscissa
+        transform: translateX(-10rem); // on the abscissa
     }
     80% {
-        transform: translateX(10px);
+        transform: translateX(1rem);
     }
     // finish
     100% {
         opacity: 1;
-        transform: translateX(0px); // on the abscissa
+        transform: translateX(0); // on the abscissa
     }
 }
 
@@ -125,10 +122,10 @@
     // start
     0% {
         opacity: 0;
-        transform: translateX(100px); // on the abscissa
+        transform: translateX(10rem); // on the abscissa
     }
     80% {
-        transform: translateX(-10px);
+        transform: translateX(-1rem);
     }
     // finish
     100% {
@@ -138,13 +135,15 @@
 }
 
 .btn {
+    font-size: 1.6rem;
     position: relative;
+
     &:active {
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-        transform: translateY(-1px); // move 1 px up
+        box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.2);
+        transform: translateY(-.1rem); // move 1 px up
     }
     &::after {
-        border-radius: 100px;
+        border-radius: 10rem;
         content: "";
         display: inline-block;
         height: 100%;
@@ -156,8 +155,8 @@
         z-index: -1;
     }
     &:hover {
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-        transform: translateY(-3px); // move 3 px up
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+        transform: translateY(-.3rem); // move 3 px up
 
         &::after {
             opacity: 0;
@@ -166,9 +165,9 @@
     }
     &:link,
     &:visited {
-        border-radius: 100px;
+        border-radius: 10rem;
         display: inline-block;
-        padding: 15px 40px;
+        padding: 1.5rem 4rem;
         text-decoration: none;
         text-transform: uppercase;
         transition: all 0.2s;
@@ -189,12 +188,12 @@
     // start
     0% {
         opacity: 0;
-        transform: translateY(30px); // on the ordinate
+        transform: translateY(3rem); // on the ordinate
     }
     // finish
     100% {
         opacity: 1;
-        transform: translateY(0px); // on the ordinate
+        transform: translateY(0); // on the ordinate
     }
 }
 </style>

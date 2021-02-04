@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" class="app">
         <Slide :closeOnNavigation="true">
             <div id="nav">
                 <router-link to="/">Home</router-link>
@@ -22,13 +22,17 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-    // font-family: Avenir, Helvetica, Arial, sans-serif;
-    font-family: 'Fira Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
+
+html {
+    font-size: 10px;
+}
+
+body {
+    color: #777;
+    font-family: "Lato", sans-serif;
+    // font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
 }
 
 #nav {
