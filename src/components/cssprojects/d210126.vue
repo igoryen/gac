@@ -3,22 +3,22 @@
         <div>2021-01-26</div>
 
         <header class="header">
-            <div class="logo-box">
+            <div class="header__logo-box">
                 <img
                     src="../../assets/images/natours/logo-white.png"
                     alt="image of the logo"
-                    class="logo"
+                    class="header__logo"
                 />
             </div>
 
-            <div class="text-box">
+            <div class="header__text-box">
                 <h1 class="heading-primary">
-                    <span class="heading-primary-main">Outdoors</span>
-                    <span class="heading-primary-sub"
+                    <span class="heading-primary--main">Outdoors</span>
+                    <span class="heading-primary--sub"
                         >is where life happens</span
                     >
                 </h1>
-                <a href="" class="btn btn-white btn-sliding"> Discover our tours </a>
+                <a href="" class="btn btn--white btn--sliding"> Discover our tours </a>
             </div>
         </header>
     </div>
@@ -57,13 +57,13 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
-.logo-box {
+.header__logo-box {
     left: 4rem;
     position: absolute;
     top: 4rem;
 }
 
-.logo {
+.header__logo {
     height: 3.5rem;
 }
 
@@ -77,7 +77,7 @@
     margin-bottom: 6rem;
     text-transform: uppercase;
 
-    &-main {
+    &--main {
         // display: block;
         // animation-delay: 3s;
         animation-duration: 1s;
@@ -87,7 +87,7 @@
         font-weight: 400px;
         letter-spacing: 3.5rem;
     }
-    &-sub {
+    &--sub {
         // display: block;
         animation: slideInFromRight 1s ease-out;
         font-size: 2rem;
@@ -96,7 +96,7 @@
     }
 }
 
-.text-box {
+.header__text-box {
     left: 50%;
     position: absolute;
     top: 40%;
@@ -174,14 +174,14 @@
         text-transform: uppercase;
         transition: all 0.2s;
     }
-    &-white {
+    &--white {
         background-color: #fff;
         color: #777;
         &::after {
             background-color: #fff;
         }
     }
-    &-sliding {
+    &--sliding {
         animation: slideInFromBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
     }
