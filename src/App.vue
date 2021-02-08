@@ -22,6 +22,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import '../src/assets/scss/main.scss';
 
 html {
     font-size: 62.5%; // DR%
@@ -38,7 +39,7 @@ html {
 
 body {
     box-sizing: border-box;
-    color: #777;
+    color: $color-grey-dark;
     font-family: "Lato", sans-serif;
     // font-size: 16px;
     font-weight: 400;
@@ -51,11 +52,11 @@ body {
     flex-direction: column;
     a {
         // color: #2c3e50;
-        color: gray;
+        color: $color-white;
         font-weight: bold;
         margin-bottom: 1em;
         &.router-link-exact-active {
-            color: #42b983;
+            color: color-green;
         }
     }
 }

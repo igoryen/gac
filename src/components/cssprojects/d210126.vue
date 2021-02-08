@@ -18,17 +18,16 @@
                         >is where life happens</span
                     >
                 </h1>
-                <a href="" class="btn btn--white btn--sliding"> Discover our tours </a>
+                <a href="" class="btn btn--white btn--sliding">
+                    Discover our tours
+                </a>
             </div>
         </header>
     </div>
 </template>
 
 <style lang="scss" scoped>
-// Light green: #7ed56f
-// Medium green: #55c57a
-// Dark green: #28b485
-
+@import "../../assets/scss/main.scss";
 // resetting
 *,
 *::after,
@@ -47,31 +46,39 @@
     height: 95vh;
     background-image: linear-gradient(
             to right bottom,
-            rgba(126, 213, 111, 0.8),
-            rgba(40, 180, 133, 0.8)
+            rgba($color-primary-light, 0.8),
+            rgba($color-primary-dark, 0.8)
         ),
         url(../../assets/images/natours/hero.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-}
 
-.header__logo-box {
-    left: 4rem;
-    position: absolute;
-    top: 4rem;
-}
+    &__logo {
+        height: 3.5rem;
 
-.header__logo {
-    height: 3.5rem;
+        &-box {
+            left: 4rem;
+            position: absolute;
+            top: 4rem;
+        }
+    }
+
+    &__text-box {
+        left: 50%;
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .heading-primary {
     align-items: baseline;
     backface-visibility: hidden; // fix the jolt at animation end
     // background-color: red;
-    color: #fff;
+    color: $color-white;
     display: flex;
     flex-direction: column;
     margin-bottom: 6rem;
@@ -94,14 +101,6 @@
         font-weight: 700;
         letter-spacing: 1.75rem;
     }
-}
-
-.header__text-box {
-    left: 50%;
-    position: absolute;
-    top: 40%;
-    text-align: center;
-    transform: translate(-50%, -50%);
 }
 
 @keyframes slideInFromLeft {
@@ -141,8 +140,8 @@
     position: relative;
 
     &:active {
-        box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.2);
-        transform: translateY(-.1rem); // move 1 px up
+        box-shadow: 0 0.5rem 2rem rgba($color-black, 0.2);
+        transform: translateY(-0.1rem); // move 1 px up
     }
     &::after {
         border-radius: 10rem;
@@ -157,8 +156,8 @@
         z-index: -1;
     }
     &:hover {
-        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
-        transform: translateY(-.3rem); // move 3 px up
+        box-shadow: 0 1rem 1rem rgba($color-black, 0.2);
+        transform: translateY(-0.3rem); // move 3 px up
 
         &::after {
             opacity: 0;
@@ -175,14 +174,15 @@
         transition: all 0.2s;
     }
     &--white {
-        background-color: #fff;
-        color: #777;
+        background-color: $color-white;
+        color: $color-grey-dark;
+        
         &::after {
-            background-color: #fff;
+            background-color: $color-white;
         }
     }
     &--sliding {
-        animation: slideInFromBottom .5s ease-out .75s;
+        animation: slideInFromBottom 0.5s ease-out 0.75s;
         animation-fill-mode: backwards;
     }
 }
