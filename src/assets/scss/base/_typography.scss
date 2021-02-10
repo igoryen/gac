@@ -1,0 +1,36 @@
+body {
+    color: $color-grey-dark;
+    font-family: "Lato", sans-serif;
+    // font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.heading-primary {
+    align-items: baseline;
+    backface-visibility: hidden; // fix the jolt at animation end
+    // background-color: red;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+    text-transform: uppercase;
+
+    &--main {
+        // display: block;
+        // animation-delay: 3s;
+        animation-duration: 1s;
+        animation-name: slideInFromLeft;
+        animation-timing-function: ease-out;
+        font-size: 6rem;
+        font-weight: 400px;
+        letter-spacing: 3.5rem;
+    }
+    &--sub {
+        // display: block;
+        animation: slideInFromRight 1s ease-out;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.75rem;
+    }
+}
