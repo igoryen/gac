@@ -23,6 +23,42 @@
                 </a>
             </div>
         </header>
+
+        <section class="grid-test">
+            <div class="row">
+                <div class="col-50prc">50%</div>
+                <div class="col-50prc">50%</div>
+            </div>
+
+            <div class="row">
+                <div class="col-33prc">33%</div>
+                <div class="col-33prc">33%</div>
+                <div class="col-33prc">33%</div>
+            </div>
+
+            <div class="row">
+                <div class="col-33prc">33%</div>
+                <div class="col-66prc">66%</div>
+            </div>
+
+            <div class="row">
+                <div class="col-25prc">25%</div>
+                <div class="col-25prc">25%</div>
+                <div class="col-25prc">25%</div>
+                <div class="col-25prc">25%</div>
+            </div>
+
+            <div class="row">
+                <div class="col-25prc">25%</div>
+                <div class="col-50prc">50%</div>
+                <div class="col-25prc">25%</div>
+            </div>
+
+            <div class="row">
+                <div class="col-25prc">25%</div>
+                <div class="col-75prc">75%</div>
+            </div>
+        </section>
     </div>
 </template>
 
