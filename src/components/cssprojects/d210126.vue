@@ -24,7 +24,7 @@
             </div>
         </header>
 
-        <section class="grid-test">
+        <!-- <section class="grid-test">
             <div class="row">
                 <div class="col-50prc">50%</div>
                 <div class="col-50prc">50%</div>
@@ -58,7 +58,7 @@
                 <div class="col-25prc">25%</div>
                 <div class="col-75prc">75%</div>
             </div>
-        </section>
+        </section> -->
     </div>
 </template>
 
