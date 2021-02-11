@@ -24,6 +24,16 @@
             </div>
         </header>
 
+        <main>
+            <section class="section-about">
+                <div class="u-center-text">
+                    <h2 class="heading-secondary">
+                        Exciting tours for adventurous people
+                    </h2>
+                </div>
+            </section>
+        </main>
+
         <!-- <section class="grid-test">
             <div class="row">
                 <div class="col-50prc">50%</div>
