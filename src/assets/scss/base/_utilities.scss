@@ -1,17 +1,22 @@
 // utility classes
+.u {
+    &-center-text {
+        text-align: center;
+    }
 
-.u-center-text {
-    text-align: center;
-}
+    &-margin {
+        &-bottom {
+            &-big {
+                margin-bottom: 8rem;
+            }
 
-.u-margin-bottom-big {
-    margin-bottom: 8rem;
-}
+            &-medium {
+                margin-bottom: 4rem;
+            }
 
-.u-margin-bottom-medium {
-    margin-bottom: 4rem;
-}
-
-.u-margin-bottom-small {
-    margin-bottom: 1.5rem;
+            &-small {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
 }
