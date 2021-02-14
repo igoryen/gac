@@ -18,7 +18,7 @@
                         >is where life happens</span
                     >
                 </h1>
-                <a href="" class="btn btn--white btn--sliding">
+                <a href="#" class="btn btn--white btn--sliding">
                     Discover our tours
                 </a>
             </div>
@@ -50,11 +50,11 @@
                         </h3>
                         <p class="paragraph">
                             Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Unde voluptatibus, quis quidem expedita
-                            deleniti alias dolor consequatur nesciunt ipsum sint
-                            eveniet ducimus soluta assumenda, ipsam, ut porro
-                            amet ad accusamus.
+                            elit.
                         </p>
+
+                        <a href="#" class="btn-text">Learn more &rarr;</a>
+
                     </div>
                     <div class="col-50prc">Images</div>
                 </div>
