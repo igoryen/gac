@@ -54,9 +54,24 @@
                         </p>
 
                         <a href="#" class="btn-text">Learn more &rarr;</a>
-
                     </div>
-                    <div class="col-50prc">Images</div>
+                    <div class="col-50prc">
+                        <div class="composition">
+                            <img
+                                src="../../assets/images/natours/nat-1-large.jpg"
+                                alt="Photo 1"
+                                class="composition__photo composition__photo--p1"
+                            /><img
+                                src="../../assets/images/natours/nat-2-large.jpg"
+                                alt="Photo 2"
+                                class="composition__photo composition__photo--p2"
+                            /><img
+                                src="../../assets/images/natours/nat-3-large.jpg"
+                                alt="Photo 3"
+                                class="composition__photo composition__photo--p3"
+                            />
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
