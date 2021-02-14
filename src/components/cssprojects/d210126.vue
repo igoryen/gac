@@ -74,6 +74,10 @@
                     </div>
                 </div>
             </section>
+
+            <section class="section-features">
+                <i class="icon-basic-world"></i>
+            </section>
         </main>
 
         <!-- <section class="grid-test">
@@ -120,3 +124,7 @@
 }
 </style>
 
+<script>
+import "@/assets/scss/linea/icon-font/styles.css";
+export default {};
+</script>
