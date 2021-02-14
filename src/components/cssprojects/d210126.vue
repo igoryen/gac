@@ -40,9 +40,7 @@
                         <p class="paragraph">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Neque ducimus commodi quis a expedita
-                            deleniti, esse, illum molestiae, fugiat cum omnis ut
-                            soluta optio dolorem maiores aliquam itaque adipisci
-                            facilis.
+                            deleniti.
                         </p>
 
                         <h3 class="heading-tertiary u-margin-bottom-small">
@@ -76,7 +74,51 @@
             </section>
 
             <section class="section-features">
-                <i class="icon-basic-world"></i>
+                <div class="row">
+                    <div class="col-25prc">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary">Explore the world</h3>
+                            <p class="feature-box__text">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-25prc">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="heading-tertiary">Meet nature</h3>
+                            <p class="feature-box__text">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-25prc">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="heading-tertiary">Find your way</h3>
+                            <p class="feature-box__text">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-25prc">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="heading-tertiary">Live a healthier life</h3>
+                            <p class="feature-box__text">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
 

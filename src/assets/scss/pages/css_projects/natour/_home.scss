@@ -1,5 +1,18 @@
-.section-about {
-    background-color: $color-grey-light;
-    margin-top: -20vh; // 95vh - 75vh = 20vh
-    padding: 25rem 0;
+.section {
+    &-about {
+        background-color: $color-grey-light;
+        margin-top: -20vh; // 95vh - 75vh = 20vh
+        padding: 25rem 0;
+    }
+
+    &-features {
+        background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.8),
+                rgba($color-primary-dark, 0.8)
+            ),
+            url(./assets/images/natours/nat-4.jpg);
+        background-size: cover;
+        padding: 20rem 0;
+    }
 }
