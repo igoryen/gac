@@ -255,7 +255,19 @@
 
                 <div class="row">
                     <div class="story">
-                        Text
+                        <figure class="story__shape"></figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                I had the best thing with my family
+                            </h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Veritatis quod rerum labore
+                                quae nostrum maxime aperiam recusandae nesciunt
+                                aliquam laboriosam natus dolorum alias, ad
+                                commodi sed provident repellendus eum quasi?
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
