@@ -111,13 +111,28 @@
                     <div class="col-25prc">
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-heart"></i>
-                            <h3 class="heading-tertiary">Live a healthier life</h3>
+                            <h3 class="heading-tertiary">
+                                Live a healthier life
+                            </h3>
                             <p class="feature-box__text">
                                 Lorem, ipsum dolor sit amet consectetur
                                 adipisicing elit.
                             </p>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section class="section-tours">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">Most popular tours</h2>
+                </div>
+                <div class="row">
+                    <div class="col-33prc">
+                        <div class="card">Card text</div>
+                    </div>
+                    <div class="col-33prc">33%</div>
+                    <div class="col-33prc">33%</div>
                 </div>
             </section>
         </main>
