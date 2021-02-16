@@ -129,7 +129,9 @@
                 </div>
                 <div class="row">
                     <div class="col-33prc">
-                        <div class="card">Card text</div>
+                        <div class="card">
+                            <div class="card__side">Text</div>
+                        </div>
                     </div>
                     <div class="col-33prc">33%</div>
                     <div class="col-33prc">33%</div>
