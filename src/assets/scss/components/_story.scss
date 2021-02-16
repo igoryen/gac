@@ -4,8 +4,8 @@
     box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
     font-size: $default-font-size;
     margin: 0 auto;
-    padding: 6rem;
-    padding-left: 9rem; // AFTER padding:
+    padding: 6rem 6rem 6rem 9rem;
+    transform: skewX(-12deg);
     width: 75%;
 
     &__shape {
@@ -15,11 +15,15 @@
         float: left;
         height: 15rem;
         shape-outside: circle(50% at 50% 50%); // defines the outside of the shape
-        transform: translateX(-3rem); // shift circle west
+        transform: translateX(-3rem) skewX(12deg); // shift circle west
         width: 15rem;
     }
 
     &__img {
         height: 100%;
+    }
+    
+    &__text {
+        transform: skewX(12deg);
     }
 }
