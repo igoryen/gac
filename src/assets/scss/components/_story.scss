@@ -14,6 +14,7 @@
         clip-path: circle(50% at 50% 50%);
         float: left;
         height: 15rem;
+        position: relative;
         shape-outside: circle(50% at 50% 50%); // defines the outside of the shape
         transform: translateX(-3rem) skewX(12deg); // shift circle west
         width: 15rem;
@@ -22,8 +23,16 @@
     &__img {
         height: 100%;
     }
-    
+
     &__text {
         transform: skewX(12deg);
+    }
+
+    &__caption {
+        @include absolutely-centered;
+        color: $color-white;
+        font-size: 1.7rem;
+        text-align: center;
+        text-transform: uppercase;
     }
 }
