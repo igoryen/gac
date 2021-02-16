@@ -17,8 +17,6 @@
         backface-visibility: hidden;
         border-radius: 3px;
         box-shadow: $box-shadow-1;
-        color: #fff;
-        font-size: 2rem;
         height: 50rem;
         left: 0;
         overflow: hidden; // so the image doesn't overlap the parent's rounded corners
@@ -42,10 +40,10 @@
 
     // FRONT SIDE STYLING
     &__picture {
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100% );
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         background-blend-mode: screen;
         background-size: cover;
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100% );
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         height: 23rem;
 
         &--1 {
@@ -57,6 +55,30 @@
         }
         &--3 {
             background-image: url(./assets/images/natours/nat-5.jpg);
+        }
+    }
+
+    &__heading {
+        color: $color-white;
+        font-size: 2.8rem;
+        font-weight: 300;
+        position: absolute;
+        right: 2rem;
+        text-align: right;
+        text-transform: uppercase;
+        top: 12rem;
+        width: 75%;
+    }
+
+    &__heading-span {
+        box-decoration-break: clone; // add EW padding when text wraps
+        padding: 1rem 1.5rem;
+        &--1 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-secondary-light, 0.85),
+                rgba($color-secondary-dark, 0.85)
+            );
         }
     }
 }
