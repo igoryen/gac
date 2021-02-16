@@ -130,7 +130,14 @@
                 <div class="row">
                     <div class="col-33prc">
                         <div class="card">
-                            <div class="card__side">Text</div>
+                            <div class="card__side card__side--front">
+                                Front
+                            </div>
+                            <div
+                                class="card__side card__side--back card__side--back-1"
+                            >
+                                Back
+                            </div>
                         </div>
                     </div>
                     <div class="col-33prc">33%</div>
