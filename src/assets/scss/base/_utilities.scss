@@ -20,7 +20,13 @@
         }
 
         &-top {
-            margin-top: 8rem;
+            &-big {
+                margin-top: 8rem;
+            }
+
+            &-huge {
+                margin-top: 10rem;
+            }
         }
     }
 }
