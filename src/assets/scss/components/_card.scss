@@ -35,6 +35,12 @@
             &-1 {
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
             }
+            &-2 {
+                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+            }
+            &-3 {
+                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+            }
         }
     }
 
@@ -51,10 +57,12 @@
                 url(./assets/images/natours/nat-5.jpg);
         }
         &--2 {
-            background-image: url(./assets/images/natours/nat-5.jpg);
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+                url(./assets/images/natours/nat-6.jpg);
         }
         &--3 {
-            background-image: url(./assets/images/natours/nat-5.jpg);
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark),
+                url(./assets/images/natours/nat-7.jpg);
         }
     }
 
@@ -78,6 +86,20 @@
                 to right bottom,
                 rgba($color-secondary-light, 0.85),
                 rgba($color-secondary-dark, 0.85)
+            );
+        }
+        &--2 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.85),
+                rgba($color-primary-dark, 0.85)
+            );
+        }
+        &--3 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-tertiary-light, 0.85),
+                rgba($color-tertiary-dark, 0.85)
             );
         }
     }
