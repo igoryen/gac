@@ -279,6 +279,37 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img
+                                src="../../assets/images/natours/nat-9.jpg"
+                                alt="Person on a tour"
+                                class="story__img"
+                            />
+                            <figcaption class="story__caption">
+                                Jack Wilson
+                            </figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Wow! My life is completely different now.
+                            </h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Veritatis quod rerum labore
+                                quae nostrum maxime aperiam recusandae nesciunt
+                                aliquam laboriosam natus dolorum alias, ad
+                                commodi sed provident repellendus eum quasi?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="u-center-text u-margin-top-huge">
+                    <a href="#" class="btn-text">Read all stories &rarr;</a>
+                </div>
             </section>
         </main>
 
