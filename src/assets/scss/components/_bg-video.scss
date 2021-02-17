@@ -1,0 +1,5 @@
+.bg-video {
+    @include absolutely-centered;
+    opacity: 0.15;
+    z-index: -1;
+}
