@@ -346,7 +346,7 @@
                                         required
                                     />
                                     <label for="name" class="form__label"
-                                        >Full name</label
+                                        >Full Name</label
                                     >
                                 </div>
 
@@ -359,7 +359,7 @@
                                         required
                                     />
                                     <label for="email" class="form__label"
-                                        >Full name</label
+                                        >Email address</label
                                     >
                                 </div>
                             </form>
