@@ -34,13 +34,23 @@
     }
 
     &-book {
-        background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+        background-image: linear-gradient(
+            to right bottom,
+            $color-primary-light,
+            $color-primary-dark
+        );
         padding: 15rem 0;
     }
 }
 
 .book {
-    background-image: url(./assets/images/natours/nat-10.jpg);
+    background-image: linear-gradient(
+            105deg,
+            rgba($color-white, 0.9) 0%,
+            rgba($color-white, 0.9) 50%,
+            transparent 50%
+        ),
+        url(./assets/images/natours/nat-10.jpg);
     background-size: 100%; // same as "cover"
     border-radius: $border-radius-slight;
     box-shadow: $box-shadow-d;
