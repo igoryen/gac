@@ -19,6 +19,10 @@
             border-bottom: 3px solid $color-primary;
             box-shadow: $box-shadow-form-input;
             outline: none; // border will not get default highlight on focus
+
+            &:invalid {
+                border-bottom: 3px solid $color-secondary-dark;
+            }
         }
         &::-webkit-input-placeholder {
             color: $color-gray-dark-2;
