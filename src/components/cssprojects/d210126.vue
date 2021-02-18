@@ -363,7 +363,7 @@
                                     >
                                 </div>
 
-                                <div class="form__group">
+                                <div class="form__group u-margin-bottom-medium">
                                     <div class="form__radio-group">
                                         <input
                                             type="radio"
@@ -398,6 +398,12 @@
                                             Large tour group
                                         </label>
                                     </div>
+                                </div>
+
+                                <div class="form__group">
+                                    <button class="btn btn--green">
+                                        Next step &rarr;
+                                    </button>
                                 </div>
                             </form>
                         </div>
