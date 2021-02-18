@@ -55,4 +55,9 @@
     border-radius: $border-radius-slight;
     box-shadow: $box-shadow-d;
     height: 50rem;
+
+    &__form {
+        padding: 6rem;
+        width: 50%;
+    }
 }
