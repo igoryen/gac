@@ -46,4 +46,48 @@
         margin-top: 0.7rem;
         transition: all 0.3s;
     }
+
+    &__radio {
+        &-group {
+            display: inline-block;
+            width: 49%;
+        }
+        &-input {
+            display: none;
+        }
+
+        &-label {
+            cursor: pointer;
+            font-size: $default-font-size;
+            padding-left: 4.5rem;
+            position: relative;
+        }
+
+        &-button {
+            border-radius: 50%;
+            border: 5px solid $color-primary;
+            display: inline-block;
+            height: 3rem;
+            left: 0;
+            position: absolute;
+            top: -0.5rem;
+            width: 3rem;
+
+            &::after {
+                @include absolutely-centered;
+                background-color: $color-primary;
+                border-radius: 50%;
+                content: "";
+                display: block;
+                height: 1.3rem;
+                opacity: 0;
+                transition: opacity 0.2s;
+                width: 1.3rem;
+            }
+        }
+
+        &-input:checked ~ &-label &-button::after {
+            opacity: 1;
+        }
+    }
 }

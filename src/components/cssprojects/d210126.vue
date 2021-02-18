@@ -375,6 +375,9 @@
                                             for="small"
                                             class="form__radio-label"
                                         >
+                                            <span
+                                                class="form__radio-button"
+                                            ></span>
                                             Small tour group
                                         </label>
                                     </div>
@@ -389,6 +392,9 @@
                                             for="large"
                                             class="form__radio-label"
                                         >
+                                            <span
+                                                class="form__radio-button"
+                                            ></span>
                                             Large tour group
                                         </label>
                                     </div>
