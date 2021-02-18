@@ -1,0 +1,26 @@
+.form {
+    &__group:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+    &__input {
+        background-color: rgba($color-white, 0.5);   
+        border-radius: 2px;
+        border: none;
+        border-bottom: 3px solid transparent; // after 'border: none'
+        display: block;
+        font-family: inherit;
+        font-size: 1.5rem;
+        padding: 1.5rem 2rem;
+        width: 90%;
+
+        &:focus {
+            border-bottom: 3px solid $color-primary;
+            box-shadow: $box-shadow-form-input;
+            outline: none; // border will not get default highlight on focus
+        }
+    }
+
+    &__label {
+    }
+}
