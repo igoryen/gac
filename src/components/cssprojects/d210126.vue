@@ -412,6 +412,50 @@
             </section>
         </main>
 
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <img
+                    src="../../assets/images/natours/logo-green-2x.png"
+                    alt="Full logo"
+                    class="footer__logo"
+                />
+            </div>
+            <div class="row">
+                <div class="col-50prc">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Company</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Careers</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link"
+                                    >Privacy policy</a
+                                >
+                            </li>
+                            <li><a href="#" class="footer__link">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-50prc">
+                    <p class="footer__copyright">
+                        Built by
+                        <a href="#" class="footer__link">IGORYEN</a>. Originally
+                        built and designed by
+                        <a href="#" class="footer__link">JONAS SCHMEDTMANN</a>
+                        for his online course
+                        <a href="" class="footer__link">ADVANCED CSS AND SASS</a
+                        >. Copyright &copy; by Jonas Schmedtmann.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
         <!-- <section class="grid-test">
             <div class="row">
                 <div class="col-50prc">50%</div>
