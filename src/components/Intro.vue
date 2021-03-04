@@ -6,7 +6,7 @@
             Feel free to
             <a
                 class="download-stuff"
-                href="/cv/Igor_Entaltsev_Frontend_Dev_and_UX_UI_Design_v24.pdf"
+                href="/cv/gac-igoryen-resume.pdf"
                 target="_blank"
                 >download &#x1F4E5; my resume</a
             >
