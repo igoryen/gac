@@ -2,10 +2,20 @@
     &__checkbox {
         display: none;
     }
+    // &:checked <-- doesn't work
+    &__checkbox:checked ~ &__background {
+        transform: scale(80);
+    }
+
+    &__checkbox:checked ~ &__nav {
+        opacity: 1;
+        width: 100%;
+    }
 
     &__button {
         background-color: $color-white;
         border-radius: 50%;
+        box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
         height: 7rem;
         position: fixed;
         right: 6rem;
@@ -24,17 +34,19 @@
         position: fixed;
         right: 6.5rem;
         top: 6.5rem;
-        transform: scale(50);
+        transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
         width: 6rem;
         z-index: 1000;
     }
 
     &__nav {
         height: 100vh;
+        opacity: 0;
         position: fixed;
-        right: 0;
+        left: 0;
         top: 0;
-        width: 100vh;
+        transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        width: 0;
         z-index: 1500;
     }
 
@@ -42,9 +54,11 @@
         @include absolutely-centered;
         list-style: none;
         text-align: center;
+        width: 100%;
     }
 
     &__item {
+        display: block;
         margin: 1rem;
     }
 
