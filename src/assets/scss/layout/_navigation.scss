@@ -66,6 +66,11 @@
             text-decoration: none;
             text-transform: uppercase;
             transition: all 0.4s;
+
+            span {
+                display: inline-block;
+                margin-right: 1.5rem;
+            }
         }
 
         &:hover,
