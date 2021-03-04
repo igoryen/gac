@@ -140,4 +140,17 @@
             top: 1rem;
         }
     }
+
+    &__checkbox:checked + &__button &__icon {
+        background-color: transparent;
+
+        &::before {
+            top: 0;
+            transform: rotate(135deg); // 180-45 = 3 quarters
+        }
+        &::after {
+            top: 0;
+            transform: rotate(-135deg);
+        }
+    }
 }
