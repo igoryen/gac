@@ -1,6 +1,5 @@
 <template>
     <div class="aaa">
-        <div>2021-01-26</div>
         <div class="navigation">
             <input
                 type="checkbox"
@@ -533,11 +532,6 @@
     </div>
 </template>
 
-<style lang="scss" scoped>
-.aaa {
-    padding-top: 5rem;
-}
-</style>
 
 <script>
 import "@/assets/scss/linea/icon-font/styles.css";

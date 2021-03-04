@@ -34,7 +34,7 @@ export default {
         font-weight: bold;
         margin-bottom: 1em;
         &.router-link-exact-active {
-            color: color-green;
+            color: $color-green;
         }
     }
 }
