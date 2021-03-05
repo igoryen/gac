@@ -494,6 +494,39 @@
             </div>
         </footer>
 
+        <div class="modal">
+            <div class="modal__content">
+                <div class="modal__left">
+                    <img
+                        src="../../assets/images/natours/nat-8.jpg"
+                        alt="Tour photo"
+                        class="modal__img"
+                    />
+                    <img
+                        src="../../assets/images/natours/nat-9.jpg"
+                        alt="Tour photo"
+                        class="modal__img"
+                    />
+                </div>
+                <div class="modal__right">
+                    <h2 class="heading-secondary u-margin-bottom-small">
+                        Start booking now
+                    </h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Important &ndash;Please read these terms before booking
+                    </h3>
+                    <p class="modal__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eius nemo fugit voluptates ex error, labore
+                        reprehenderit cum perspiciatis ipsa iste illum nisi
+                        officiis possimus obcaecati velit quae mollitia tempora
+                        deserunt!
+                    </p>
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
+
         <!-- <section class="grid-test">
             <div class="row">
                 <div class="col-50prc">50%</div>
