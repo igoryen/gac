@@ -34,7 +34,17 @@
     }
 
     &__text {
+        -moz-column-count: 2;
+        -moz-column-gap: 4rem; // 1em = 14px
+        -moz-column-rule: 1px solid $color-grey-light-2;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphens: auto;
+        column-count: 2;
+        column-gap: 4rem; // 1em = 14px
+        column-rule: 1px solid $color-grey-light-2;
         font-size: 1.4rem;
+        hyphens: auto;
         margin-bottom: 4rem;
     }
 }
