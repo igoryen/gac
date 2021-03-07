@@ -509,6 +509,7 @@
                     />
                 </div>
                 <div class="modal__right">
+                    <a href="#section-tours" class="modal__close">&times;</a>
                     <h2 class="heading-secondary u-margin-bottom-small">
                         Start booking now
                     </h2>

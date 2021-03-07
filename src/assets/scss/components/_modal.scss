@@ -15,13 +15,39 @@
         visibility: visible;
     }
 
+    &:target &__content {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    &__close {
+        &:link,
+        &:visited {
+            color: $color-grey-dark;
+            display: inline-block;
+            font-size: 3rem;
+            line-height: 1;
+            position: absolute;
+            text-decoration: none;
+            top: 2.5rem;
+            right: 2.5rem;
+            transition: all 0.2s;
+        }
+        &:hover {
+            color: $color-primary;
+        }
+    }
+
     &__content {
         @include absolutely-centered;
         background-color: $color-white;
         border-radius: 3px;
         box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
         display: table;
+        opacity: 0;
         overflow: hidden; // so images don't overlap parent with its rounded corners
+        transform: translate(-50%, -50%) scale(0.25);
+        transition: all 0.5s 0.2s;
         width: 75%;
     }
 
