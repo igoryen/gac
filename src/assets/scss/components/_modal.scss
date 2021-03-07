@@ -10,34 +10,6 @@
     width: 100%;
     z-index: 200;
 
-    &:target {
-        opacity: 1;
-        visibility: visible;
-    }
-
-    &:target &__content {
-        opacity: 1;
-        transform: translate(-50%, -50%) scale(1);
-    }
-
-    &__close {
-        &:link,
-        &:visited {
-            color: $color-grey-dark;
-            display: inline-block;
-            font-size: 3rem;
-            line-height: 1;
-            position: absolute;
-            text-decoration: none;
-            top: 2.5rem;
-            right: 2.5rem;
-            transition: all 0.2s;
-        }
-        &:hover {
-            color: $color-primary;
-        }
-    }
-
     &__content {
         @include absolutely-centered;
         background-color: $color-white;
@@ -80,5 +52,34 @@
         font-size: 1.4rem;
         hyphens: auto;
         margin-bottom: 4rem;
+    }
+
+    // action
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &:target &__content {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    &__close {
+        &:link,
+        &:visited {
+            color: $color-grey-dark;
+            display: inline-block;
+            font-size: 3rem;
+            line-height: 1;
+            position: absolute;
+            text-decoration: none;
+            top: 2.5rem;
+            right: 2.5rem;
+            transition: all 0.2s;
+        }
+        &:hover {
+            color: $color-primary;
+        }
     }
 }
