@@ -56,7 +56,7 @@
                         >is where life happens</span
                     >
                 </h1>
-                <a href="#" class="btn btn--white btn--sliding">
+                <a href="#section-tours" class="btn btn--white btn--sliding">
                     Discover our tours
                 </a>
             </div>
@@ -161,7 +161,7 @@
                 </div>
             </section>
 
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">Most popular tours</h2>
                 </div>
@@ -196,7 +196,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$100</p>
                                     </div>
-                                    <a href="#" class="btn btn--white"
+                                    <a href="#modal" class="btn btn--white"
                                         >Book now!</a
                                     >
                                 </div>
@@ -233,7 +233,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$500</p>
                                     </div>
-                                    <a href="#" class="btn btn--white"
+                                    <a href="#modal" class="btn btn--white"
                                         >Book now!</a
                                     >
                                 </div>
@@ -270,7 +270,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$900</p>
                                     </div>
-                                    <a href="#" class="btn btn--white"
+                                    <a href="#modal" class="btn btn--white"
                                         >Book now!</a
                                     >
                                 </div>
@@ -494,7 +494,7 @@
             </div>
         </footer>
 
-        <div class="modal">
+        <div class="modal" id="modal">
             <div class="modal__content">
                 <div class="modal__left">
                     <img

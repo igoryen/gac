@@ -2,10 +2,18 @@
     background-color: rgba($color-black, 0.8);
     height: 100vh;
     left: 0;
+    opacity: 0;
     position: fixed;
     top: 0;
+    transition: all 0.3s;
+    visibility: hidden;
     width: 100%;
     z-index: 200;
+
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
 
     &__content {
         @include absolutely-centered;
