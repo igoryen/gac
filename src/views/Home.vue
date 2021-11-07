@@ -40,6 +40,8 @@ $img-size: 10em;
 .photo {
     display: flex;
     justify-content: center;
+    padding: 3em 0 0 0;
+
     .photo-image {
         background-image: url("../assets/me-a.jpg");
         background-repeat: no-repeat;
