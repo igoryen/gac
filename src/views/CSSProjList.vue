@@ -7,7 +7,7 @@
 <script>
 import D210126 from "@/components/cssprojects/d210126.vue";
 export default {
-    name: "CSSprojects",
+    name: "CSSProjList",
     components: {
         D210126,
     },

@@ -20,8 +20,8 @@ const routes = [
   },
   {
     path: '/css-projects',
-    name: 'CSSprojects',
-    component: () => import('../views/CSSprojects.vue')
+    name: 'CSSProjList',
+    component: () => import('../views/CSSProjList.vue')
   }
 ]
 
